@@ -3,7 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RinhaDeBackend.Models 
 {
-    public class Transaction {
+    public class Transaction 
+    {
         [JsonProperty("id")]
         public int Id { get; set; }
         

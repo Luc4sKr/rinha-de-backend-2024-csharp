@@ -1,7 +1,8 @@
 using Newtonsoft.Json;
 
 namespace RinhaDeBackend.Models {
-    public class User {
+    public class User 
+    {
         [JsonProperty("id")]
         public int Id { get; set; }
 
