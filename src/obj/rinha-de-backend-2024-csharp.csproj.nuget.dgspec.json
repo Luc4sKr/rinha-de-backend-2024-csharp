@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/lucas/codes/rinha-de-backend-2024-csharp/src/rinha-de-backend-2024-csharp/rinha-de-backend-2024-csharp.csproj": {}
+    "/home/lucas/codes/rinha-de-backend-2024-csharp/src/rinha-de-backend-2024-csharp.csproj": {}
   },
   "projects": {
-    "/home/lucas/codes/rinha-de-backend-2024-csharp/src/rinha-de-backend-2024-csharp/rinha-de-backend-2024-csharp.csproj": {
+    "/home/lucas/codes/rinha-de-backend-2024-csharp/src/rinha-de-backend-2024-csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/codes/rinha-de-backend-2024-csharp/src/rinha-de-backend-2024-csharp/rinha-de-backend-2024-csharp.csproj",
+        "projectUniqueName": "/home/lucas/codes/rinha-de-backend-2024-csharp/src/rinha-de-backend-2024-csharp.csproj",
         "projectName": "rinha-de-backend-2024-csharp",
-        "projectPath": "/home/lucas/codes/rinha-de-backend-2024-csharp/src/rinha-de-backend-2024-csharp/rinha-de-backend-2024-csharp.csproj",
+        "projectPath": "/home/lucas/codes/rinha-de-backend-2024-csharp/src/rinha-de-backend-2024-csharp.csproj",
         "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/codes/rinha-de-backend-2024-csharp/src/rinha-de-backend-2024-csharp/obj/",
+        "outputPath": "/home/lucas/codes/rinha-de-backend-2024-csharp/src/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/lucas/.nuget/NuGet/NuGet.Config"
@@ -41,6 +41,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
