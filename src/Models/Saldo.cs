@@ -8,11 +8,11 @@ namespace RinhaDeBackend.Models
         [JsonProperty("id")]
         public int Id { get; set; }
         
+        [JsonProperty("user_id")]
+        public int UserId { get; set; }
+        
         [JsonProperty("total")]
         public int Total { get; set; }
-
-        [JsonProperty("data_extrato")]
-        public DateTime DataExtrato { get; set; }
         
         [JsonProperty("limite")]
         public int Limite { get; set; }

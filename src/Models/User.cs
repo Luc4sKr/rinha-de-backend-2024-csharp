@@ -8,6 +8,8 @@ namespace RinhaDeBackend.Models {
 
         [JsonProperty("saldo")]
         public int Saldo { get; set; }
+        
+        [JsonProperty("ultimas_transacoes")]
         public virtual List<Transaction> Transactions { get; set; }
 
         public User() { }

@@ -15,8 +15,10 @@ namespace RinhaDeBackend.Models
         public Tipo Tipo { get; set; }
 
         [JsonProperty("descricao")]
-        [StringLength(10, MinimumLength = 1)]
         public string Descricao { get; set; }
+
+        [JsonProperty("realizado_em")]
+        public DateTime RealizadoEm { get; set; }
 
         public Transaction() { }
     }
