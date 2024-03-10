@@ -1,7 +1,3 @@
-CREATE DATABASE rinha;
-
-USE rinha;
-
 DROP TABLE IF EXISTS saldos;
 CREATE TABLE saldos(
 	id SERIAL PRIMARY KEY,
@@ -20,6 +16,8 @@ CREATE TABLE transactions(
 	realizada_em TIMESTAMP NOT NULL
 );
 
+CREATE INDEX ids_transactions_ids_user_id ON transactions (user_id);
+CREATE INDEX ids_saldos_ids_user_id ON saldos (user_id);
 
 DO $$
 BEGIN
